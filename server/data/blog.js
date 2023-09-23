@@ -5,7 +5,7 @@ const blogData = [
         "imageURL" : "https://www.instagram.com/p/CxgAJrIvSjw/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
         "description" : "Hi! It\’s been a while but I\’m back! \’ve had a busy summer and since started a couple weeks ago, I thought it\’s time to for to have some time to come back\! It\’s actually scary to post all of a sudden again but I hope you\’re all doing well! 🤧❤️💕💕",
         "datePosted" : "2023-09-22T12:00:00",
-    },
+    }, 
     {
         "id" : 1,
         "title" : "Summer Shop Update",

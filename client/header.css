@@ -1,0 +1,114 @@
+body{
+    background-color: pink;
+}
+
+header{
+    height: 600px;
+}
+
+.header-container{
+    margin-top: 175px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 0px;
+    filter: blur(25px);
+}
+
+.heart::before, .heart::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 104px;
+    height: 160px;
+    border-radius: 100px 100px 0 0;
+    background: rgb(255, 132, 152);
+}
+  
+.heart::before {
+    left: 100px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+  
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.word-container{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.header-title{
+    font-family: 'Playfair Display', serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 50px;
+}
+
+.header-sub{
+    font-family: 'Caveat', cursive;
+    line-height: .2;
+    font-size: 30px;
+    margin-left: 5px;
+    color: rgb(134, 98, 98);
+}
+
+.create-padding{
+    margin-top: 30px;
+}
+
+/* small headers */
+.smallHeader{
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    height: 100px;
+    /* background-color: aqua; */
+}
+
+.titleCont{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.sm_headerTitle{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+}
+
+.sm_headerSub{
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 22px;
+}
+
+/* button */
+
+.header-button{
+    border: solid 2px white;
+    color: white;
+    padding: 7px 8px;
+    border-radius: 10px;
+    margin-left: 90%;
+}
+
+.header-button:hover{
+    cursor: pointer;
+}
+
+

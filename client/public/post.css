@@ -1,0 +1,32 @@
+#postDisplay{
+    margin: 50px;
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#postWords{
+    width: 700px;
+}
+
+#postImg{
+    width: 300px;
+    height: 300px;
+}
+
+#title{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#datePosted, #description{
+    font-family: 'Caveat', cursive;
+    margin-top: 20px;
+}
+
+#description{
+    width: 300px;
+}
