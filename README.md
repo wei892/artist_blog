@@ -2,7 +2,7 @@
 
 Submitted by: **Wei Lin Li**
 
-About this web app: **A Blog page for an artist to post memories of her day to day**
+About this web app: **A Blog page for an artist to post memories of her day-to-day**
 
 Time spent: **5** hours
 
@@ -32,7 +32,7 @@ Here's a walkthrough of implemented required features:
 
 ## Notes
 
-I'm still having trouble getting embeded links for instagram posts so the images are still unable to be displayed.
+I'm still having trouble getting embedded links for Instagram posts so the images are still unable to be displayed.
 
 ## License
 
