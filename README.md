@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 2 - *Artist Blog*
 
 Submitted by: **Wei Lin Li**
 
-About this web app: **A website for an artist to document their art, portfolio, and behind the scenes**
+About this web app: **A Blog page for an artist to post memories of her day to day**
 
-Time spent: **30** hours
+Time spent: **5** hours
 
 ## Required Features
 
@@ -12,16 +12,13 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is appropriately styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [x] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+- [x] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists
+- [ ] The user can search for items with a specific attribute
 
 The following **additional** features are implemented:
 
@@ -29,18 +26,13 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-**Note: please be sure to 
-
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+<img src='./proj2gif.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
-I have trouble trying to get embed pictures from my instagram to work so the pictures are not rendering properly.
+I'm still having trouble getting embeded links for instagram posts so the images are still unable to be displayed.
 
 ## License
 
